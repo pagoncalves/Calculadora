@@ -26,4 +26,9 @@ public class CalculadoraTest {
         double mult = Calculadora.mult(55.5, 47.0);
         assertEquals(55.5*47.0, mult,1.1) ; 
     }
+    
+    public void testDiv() {
+        double div = Calculadora.div(16.0, 4.0);
+        assertEquals(4.0, div, 0.1);
+    }
 }
