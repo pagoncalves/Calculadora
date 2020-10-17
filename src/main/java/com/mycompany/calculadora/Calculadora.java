@@ -11,6 +11,10 @@ public class Calculadora {
         return a * b;
     }
     
+    static double div(double a, double b){
+        return a / b;
+    }
+    
     
     
 }
