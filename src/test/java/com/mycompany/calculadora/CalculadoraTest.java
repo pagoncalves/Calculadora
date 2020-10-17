@@ -31,4 +31,10 @@ public class CalculadoraTest {
         double div = Calculadora.div(16.0, 4.0);
         assertEquals(4.0, div, 0.1);
     }
+
+    public void testSomaMult(){
+        double soma = Calculadora.soma(45.5, 58.6);
+        double mult = Calculadora.mult(soma, 2);
+        assertEquals((45.5+58.6)*2,mult,0.1);
+    }
 }
